@@ -22,7 +22,7 @@ A Django-based **FAQ API** that supports:
 
 ## ⚡ Installation & Setup
 
-### **1️⃣ C\*\*\*\*lone the Repository**
+### **1️⃣ Clone the Repository**
 
 ```sh
 git clone https://github.com/yourusername/django-faq-api.git
@@ -111,28 +111,12 @@ curl -X DELETE http://127.0.0.1:8000/api/faqs/1/
 
 ## 🛠 Running Tests
 
-### **1️⃣ Run Backend Tests (Pytest)**
+### ** Run Backend Tests (Pytest)**
 
 ```sh
 pytest
 ```
 
-### **2️⃣ Run Frontend API Tests (Mocha/Chai)**
-
-Ensure Django is running, then:
-
-```sh
-cd faq/tests/frontend/
-npm install
-npm test
-```
-
-### **3️⃣ Lint Code (Python & JavaScript)**
-
-```sh
-flake8 faq/ --max-line-length=100  # Python
-npx eslint tests/frontend/api.test.js  # JavaScript
-```
 
 ---
 
